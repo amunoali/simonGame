@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden
+}
 body {
     text-align: center;
     background-color: #011F3F;
@@ -10,20 +16,19 @@ body {
     color: #FEF2BF;
   }
   
-  .container {
+  /* .container {
     display: block;
     width: 50%;
     margin: auto;
   
-  }
+  } */
   
   .btn {
-    margin: 25px;
+
     display: inline-block;
     height: 200px;
     width: 200px;
-    border: 10px solid black;
-    border-radius: 20%;
+    
   }
   
   .game-over {
@@ -33,21 +38,41 @@ body {
   
   .red {
     background-color: red;
+    
+    border-top-right-radius: 200px;
   }
   
   .green {
     background-color: green;
+   
+    border-top-left-radius: 200px;
   }
   
   .blue {
     background-color: blue;
+    border-bottom-right-radius: 200px;
   }
   
   .yellow {
     background-color: yellow;
+    border-bottom-left-radius: 200px;
+
+  }
+  .center{
+      display: inline-block;
+      position: fixed;
+      width: 9rem;
+      height: 9rem;
+      border-radius: 100%;
+      background-color: #011F3F;
+      top: 22rem;
+      left: 40rem;
+  
   }
   
   .pressed {
     box-shadow: 0 0 20px white;
     background-color: grey;
   }
+
+	
