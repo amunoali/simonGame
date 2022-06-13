@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Simon Game
 A interactive game that tests your muscle memory. Check it out and see how far your memory can go.
@@ -26,3 +27,4 @@ Take a look at these couple examples that I have in my own portfolio:
 
 
 
+=======
