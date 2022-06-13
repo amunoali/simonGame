@@ -11,9 +11,15 @@ body {
   
   #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin:  5%;
+    font-size: 3.5rem;
+   margin-top: 2rem;
     color: #FEF2BF;
+  }
+  p{
+    color: #FEF2BF;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
   }
   
   .btn {
@@ -53,17 +59,16 @@ body {
   }
   .center{
       display: inline-block;
-      position: fixed;
-      width: 9rem;
-      height: 9rem;
+      position: relative;
+      width: 10rem;
+      height: 10rem;
       border-radius: 100%;
       background-color: #011F3F;
-      top: 22rem;
-      left: 40rem;
+      bottom: 18rem;
       cursor: pointer;
   
   }
-  
+
   .pressed {
     box-shadow: 0 0 20px white;
     background-color: grey;

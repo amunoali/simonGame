@@ -77,6 +77,7 @@ function playSound(name) {
   audio.play();
 }
 
+
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
