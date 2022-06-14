@@ -23,7 +23,7 @@ Take a look at these couple examples that I have in my own portfolio:
 
 **Portfolio:** https://github.com/amunoali/portfolio
 
-**Dice Game:** https://github.com/amunoali/diceGame
+**Memory Game:** https://github.com/amunoali/memoryGame
 
 
 
